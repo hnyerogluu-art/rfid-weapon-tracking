@@ -73,16 +73,16 @@
 
 <script>
     // RESİM LİNKLERİNİ BURAYA YAPIŞTIR
-    const weapons = [
-        { id: "TAG-M4-01", name: "M4 Carbine", type: "Rifle", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/M4A1_SOPMOD_with_an_M203_grenade_launcher.png/640px-M4A1_SOPMOD_with_an_M203_grenade_launcher.png", inStock: false },
-        { id: "TAG-G17-02", name: "Glock 17", type: "Handgun", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Glock_17_noBG.png/640px-Glock_17_noBG.png", inStock: false },
-        { id: "TAG-AK-03", name: "AK-12", type: "Rifle", img: "https://upload.wikimedia.org/wikipedia/commons/d/d4/AK-12_-_Left_Side.png", inStock: false },
-        { id: "TAG-MP5-04", name: "MP5 SD", type: "SMG", img: "https://upload.wikimedia.org/wikipedia/commons/0/05/H%26K_MP5SD6.png", inStock: false },
-        { id: "TAG-M24-05", name: "M24 Sniper", type: "Sniper", img: "https://upload.wikimedia.org/wikipedia/commons/b/b3/M24_Sniper_Weapon_System.png", inStock: false },
-        { id: "TAG-SIG-06", name: "SIG Sauer P320", type: "Handgun", img: "https://upload.wikimedia.org/wikipedia/commons/1/15/P320_Nitron_Full-Size.png", inStock: false },
-        { id: "TAG-AUG-07", name: "Steyr AUG", type: "Rifle", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/STEYR_AUG_A1.png/800px-STEYR_AUG_A1.png", inStock: false },
-        { id: "TAG-UMP-08", name: "UMP-45", type: "SMG", img: "https://upload.wikimedia.org/wikipedia/commons/4/4c/H%26K_UMP.png", inStock: false }
-    ];
+   const weapons = [
+    { id: "TAG-M4-01", name: "M4 Carbine", type: "Rifle", img: "m4.png", inStock: false },
+    { id: "TAG-G17-02", name: "Glock 17", type: "Handgun", img: "glock.png", inStock: false },
+    { id: "TAG-AK-03", name: "AK-12", type: "Rifle", img: "ak12.png", inStock: false },
+    { id: "TAG-MP5-04", name: "MP5 SD", type: "SMG", img: "mp5.png", inStock: false },
+    { id: "TAG-M24-05", name: "M24 Sniper", type: "Sniper", img: "m24.png", inStock: false },
+    { id: "TAG-SIG-06", name: "SIG Sauer P320", type: "Handgun", img: "sig.png", inStock: false },
+    { id: "TAG-AUG-07", name: "Steyr AUG", type: "Rifle", img: "aug.png", inStock: false },
+    { id: "TAG-UMP-08", name: "UMP-45", type: "SMG", img: "ump.png", inStock: false }
+];
 
     function showPage(pageId) {
         document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
